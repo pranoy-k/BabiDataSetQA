@@ -3,7 +3,7 @@ import tarfile, tensorflow as tf, matplotlib.pyplot as plt, operator, random, pi
 #1bcolz
 #2import xgboost
 import shutil, sklearn, functools, itertools, scipy
-from PIL import Image
+#from PIL import Image
 from concurrent.futures import ProcessPoolExecutor, as_completed, ThreadPoolExecutor
 import matplotlib.patheffects as PathEffects
 from sklearn.preprocessing import LabelEncoder, StandardScaler
