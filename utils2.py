@@ -20,7 +20,7 @@ from itertools import chain
 from tensorflow.python.framework import ops
 from tensorflow.contrib import rnn as seq2seq
 #legacy_seq2seq
-#from keras_tqdm import TQDMNotebookCallback
+from keras_tqdm import TQDMNotebookCallback
 from keras import initializers
 from keras.applications.resnet50 import ResNet50, decode_predictions, conv_block, identity_block
 from keras.applications.vgg16 import VGG16
